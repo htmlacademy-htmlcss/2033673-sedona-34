@@ -15,22 +15,23 @@
         <a class="navigation-link" href="index.html">Главная</a>
       </li>
       <li class="navigation-item">
-        <a class="navigation-link" href="about.html">О Седоне</a>
+        <a class="navigation-link" href="#">О Седоне</a>
       </li>
       <li class="navigation-item">
-        <a class="navigation-link" href="hotels.html">Гостиницы</a>
+        <a class="navigation-link" href="#">Гостиницы</a>
       </li>
     </ul>
     <ul class="navigation-list user-navigation">
       <li class="navigation-item">
         <a class="navigation-item" href="#">
-          <span class="visually-hidden">Поиск</span>
+          <img class="user-navigation-icon" src="images/user-nav/search.svg" alt="Поиск">
         </a>
       </li>
       <li class="navigation-item">
         <a class="navigation-item" href="#">
-          <span class="visually-hidden">Избранное</span>
+          <img class="user-navigation-icon" src="images/user-nav/favorite.svg" alt="Избранное">
         </a>
+        <span class="favorite-quantity">12</span>
       </li>
       <li class="navigation-item button main-button">
         <a class="navigation-item" href="#">Хочу сюда!</a>
@@ -45,7 +46,11 @@
     <h2 class="visually-hidden">Баннер</h2>
     <img class="hero-welcome" src="images/hero/welcome.svg" width="188" height="45" alt="Добро пожаловать">
     <img class="hero-gorgeous" src="images/hero/gorgeous.svg" width="256" height="29" alt="в прекрасную">
-    <img class="hero-logo" src="images/hero/sedona.svg" width="457" height="213" alt="Седону. Слоган:'Потому что Гранд Каньон - отстой'">
+    <img class="hero-logo"
+         src="images/hero/sedona.svg"
+         width="457"
+         height="213"
+         alt="Седону. Слоган:'Потому что Гранд Каньон - отстой'">
   </section>
   <section class="reasons_advantages">
     <h2 class="visually-hidden">Причины и преимущества</h2>
@@ -58,8 +63,32 @@
           <h4 class="reason-title">Настоящий городок</h4>
           <p class="reason-number">— №1 —</p>
           <p class="reason-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          <img class="reason-image" src="images/reasons/reason-1.jpg" width="800" height="384" alt="Жизнь в городе Седона">
+          <img class="reason-image"
+               src="images/reasons/reason-1.jpg"
+               width="800"
+               height="384"
+               alt="Жизнь в городе Седона">
         </li>
+        <div class="advantages">
+          <h3 class="visually-hidden">Преимущества</h3>
+          <ul class="advantages-list">
+            <li class="advantages-item">
+              <img class="advantage-icon" src="images/advantages/house.svg" width="75" height="72" alt="Жильё">
+              <h4 class="advantage-title">Жильё</h4>
+              <p class="advantage-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            </li>
+            <li class="advantages-item">
+              <img class="advantage-icon" src="images/advantages/food.svg" width="74" height="70" alt="Еда">
+              <h4 class="advantage-title">Еда</h4>
+              <p class="advantage-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            </li>
+            <li class="advantages-item">
+              <img class="advantage-icon" src="images/advantages/gifts.svg" width="64" height="76" alt="Сувениры">
+              <h4 class="advantage-title">Сувениры</h4>
+              <p class="advantage-description">Не только китайского, но и настоящего местного производства!</p>
+            </li>
+          </ul>
+        </div>
         <li class="reasons-item">
           <h4 class="reason-title">Там есть мост дьявола</h4>
           <p class="reason-number">— №2 —</p>
@@ -82,26 +111,6 @@
           <p class="reason-description">Большинство едет в Гранд Каньон и толпится там</p>
         </li>
       </ol>
-    </div>
-    <div class="advantages">
-      <h3 class="visually-hidden">Преимущества</h3>
-      <ul class="advantages-list">
-        <li class="advantages-item">
-          <img class="advantage-icon" src="images/adventages/house.svg" width="75" height="72" alt="Жильё">
-          <h4 class="advantage-title">Жильё</h4>
-          <p class="advantage-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-        </li>
-        <li class="advantages-item">
-          <img class="advantage-icon" src="images/adventages/food.svg" width="74" height="70" alt="Еда">
-          <h4 class="advantage-title">Еда</h4>
-          <p class="advantage-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-        </li>
-        <li class="advantages-item">
-          <img class="advantage-icon" src="images/adventages/gifts.svg" width="64" height="76" alt="Сувениры">
-          <h4 class="advantage-title">Сувениры</h4>
-          <p class="advantage-description">Не только китайского, но и настоящего местного производства!</p>
-        </li>
-      </ul>
     </div>
   </section>
   <section class="hotel_search">
@@ -130,17 +139,17 @@
       <ul class="social-list">
         <li class="social-item">
           <a class="social-link" href="https://vk.com/htmlacademy">
-            <span class="visually-hidden">ВКонтакте</span>
+            <img class="social-image" src="images/social-icons/vk-icon.svg" alt="ВКонтакте">
           </a>
         </li>
         <li class="social-item">
           <a class="social-link" href="https://t.me/htmlacademy">
-            <span class="visually-hidden">Телеграмм</span>
+            <img class="social-image" src="images/social-icons/telegram-icon.svg" alt="Телеграм">
           </a>
         </li>
         <li class="social-item">
           <a class="social-link" href="https://www.youtube.com/user/htmlacademyru">
-            <span class="visually-hidden">YouTube</span>
+            <img class="social-icon" src="images/social-icons/youtube-icon.svg" alt="YouTube">
           </a>
         </li>
       </ul>
